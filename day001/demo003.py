@@ -31,3 +31,4 @@ demo005 = {"a1": 1, "demo": "002"}
 print(demo005)  # 所见即所得，{'a1': 1, 'demo': '002'}
 # 说实在的，这种键值对的形式，我觉得就是json
 print(type(demo005))  # 字典类型，<class 'dict'>
+1
