@@ -3,3 +3,7 @@
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 @
 day002/day004.py,3\8\387c9b991ac0189d8f9096b196f9161cc4c5d6aa
+@
+day002/day005.py,4\f\4fc53014f94a78d7c92d0757e98287d646ca2cd4
+@
+day002/day006.py,a\c\ac5eb6fdaebb74a0ffb3cd403a941d59375ba937
