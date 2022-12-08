@@ -91,8 +91,10 @@ def choose_order():
             print("显示所有学员")
             print(common_classmate)
         elif num == 6:
-            print("退出系统")
-            break
+            input_exit = input("确定要退出吗")
+            if input_exit == "yes":
+                print("退出系统")
+                break
         else:
             print("请重新输入")
 
