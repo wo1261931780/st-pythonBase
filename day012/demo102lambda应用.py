@@ -12,3 +12,6 @@ print("==================================================")
 common_dic.sort(key=lambda x: x["name"], reverse=True)
 # reverse表示降序排列
 print(common_dic)
+# 解释一下，首先是指定排序的东西，这里指定的就是key
+# 然后，设置key的排序原则，就使用lambda表达式完成
+# 最后选择是否需要降序排列
