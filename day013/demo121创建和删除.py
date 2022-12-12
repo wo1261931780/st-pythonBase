@@ -7,7 +7,7 @@ print("==================================================")
 os.rmdir("demo122folder")  # 删除文件夹
 
 print("==================================================")
-print(os.getcwd())  # C:\Users\64234\Documents\GitHub\st-python.github.io\day13
+print(os.getcwd())  # C:\Users\64234\Documents\GitHub\st-python.github.io\day013
 # 返回当前文件的所在路径
 # 这里返回的，是当前py文件的所在位置
 print("==================================================")
