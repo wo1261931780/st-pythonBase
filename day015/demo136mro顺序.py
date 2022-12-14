@@ -14,9 +14,8 @@ class Demo2(Demo1):
         print("我是demo2中的运行方法")
 
 
-demo1 = Demo1()
-print(demo1.name)
 print("==================================================")
-demo2 = Demo2()
-print(demo2.name)  # 222
-# 完成了重写操作
+# 这里是使用类来调用功能，针对类的关系展示
+print(Demo2.__mro__)  # 用来展示类之间的继承关系
+# (<class '__main__.Demo2'>, <class '__main__.Demo1'>, <class 'object'>)
+# demo2继承demo1，然后所有类都继承object类
