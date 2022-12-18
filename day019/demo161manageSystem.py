@@ -67,15 +67,43 @@ class StudentManager:
 
     def modify_student(self):
         print("修改学员")
+        name = input("请输入姓名")
+        for i in self.student_list:
+            if i.name == name:
+                i.tel = input("请输入手机号")
+                i.name = input("请输入姓名")
+                i.gender = input("请输入性别")
+                i.age = input("请输入年龄")
+                print("修改成功")
+                break
+        else:
+            print("查无此人")
+        print(self.student_list)
 
     def search_student(self):
         print("查询学员")
 
     def show_student(self):
         print("展示学员")
+        try:
+            text_io = open("demo163.txt", "r")
+        except:
+            text_io = open("demo163.txt", "w")
+        else:
+            text_io_read = text_io.read()
+            eval1 = eval(text_io_read)
+            self.student_list = [demo160students(i['name'], i['gender'], i['age'], i['tel']) for i in eval1]
+        finally:
+            text_io.close()
 
     def save_student(self):
-        print("保存学员")
+        print("保存学员到文件")
+        # 列表里面套字典
+        text_io = open("demo163.txt", "w")
+        new_list = [i.__dict__ for i in self.student_list]
+        print(new_list)
+        text_io.write(str(new_list))
+        text_io.close()
 
     def exit_student(self):
         print("退出系统")
