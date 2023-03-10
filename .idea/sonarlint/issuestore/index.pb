@@ -1,6 +1,4 @@
 
-9
-	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
@@ -8,3 +6,7 @@ A
 day019/demo163.py,7\2\725345bb1a7e699d409f64f9c1f22db655265666
 E
 day019/demo162dict.py,b\7\b73c42bf56fb10d42561203b54131eb9dc5756b5
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+G
+day009/demo076函数.py,d\4\d41930d55b85d158eaa599513c110b2508c91d72
